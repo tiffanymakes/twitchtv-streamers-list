@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Press+Start+2P|VT323');
+body{
+  background: rgba(100, 65, 164,0.2);
+  padding: 50px;
+  font: 14px 'Audiowide';
+}
+.navbar-inverse {
+  color: #6441A4;
+}
+#all-contents {
+    float: none;
+    margin: 0 auto;
+}
+#online-contents {
+    float: none;
+    margin: 0 auto;
+}
+#offline-contents {
+    float: none;
+    margin: 0 auto;
+}
+#all-contents:last-child, #online-contents:last-child, #offline-contents:last-child {
+  padding: 0 0 5% 0;
+}
+.streaming a{
+  margin: 1%;
+  color: #555555;
+  text-decoration: none;
+}
+.streaming:hover {
+  background: rgba(100, 65, 164,0.3);
+  color: #555555;
+  text-decoration: none;
+}
+a {
+  color: #555555;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
